@@ -1,0 +1,51 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Innago.Shared.ReplaceMe | v1",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/placeholder": {
+      "post": {
+        "tags": [
+          "__REPLACE_ME__"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlaceholderInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PlaceholderInput": {
+        "required": [
+          "value"
+        ],
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "__REPLACE_ME__"
+    }
+  ]
+}
