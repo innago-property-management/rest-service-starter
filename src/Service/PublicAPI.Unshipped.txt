@@ -1,0 +1,17 @@
+Innago.Shared.ReplaceMe.Handlers.Placeholder
+Innago.Shared.ReplaceMe.Handlers.PlaceholderInput
+Innago.Shared.ReplaceMe.Handlers.PlaceholderInput.Deconstruct(out string! Value) -> void
+Innago.Shared.ReplaceMe.Handlers.PlaceholderInput.PlaceholderInput(Innago.Shared.ReplaceMe.Handlers.PlaceholderInput! original) -> void
+Innago.Shared.ReplaceMe.Handlers.PlaceholderInput.PlaceholderInput(string! Value) -> void
+Innago.Shared.ReplaceMe.Handlers.PlaceholderInput.Value.get -> string!
+Innago.Shared.ReplaceMe.Handlers.PlaceholderInput.Value.init -> void
+override Innago.Shared.ReplaceMe.Handlers.PlaceholderInput.Equals(object? obj) -> bool
+override Innago.Shared.ReplaceMe.Handlers.PlaceholderInput.GetHashCode() -> int
+override Innago.Shared.ReplaceMe.Handlers.PlaceholderInput.ToString() -> string!
+static Innago.Shared.ReplaceMe.Handlers.Placeholder.Stub(Innago.Shared.ReplaceMe.Handlers.PlaceholderInput! input, System.Threading.CancellationToken cancellationToken) -> System.Threading.Tasks.Task!
+static Innago.Shared.ReplaceMe.Handlers.PlaceholderInput.operator !=(Innago.Shared.ReplaceMe.Handlers.PlaceholderInput? left, Innago.Shared.ReplaceMe.Handlers.PlaceholderInput? right) -> bool
+static Innago.Shared.ReplaceMe.Handlers.PlaceholderInput.operator ==(Innago.Shared.ReplaceMe.Handlers.PlaceholderInput? left, Innago.Shared.ReplaceMe.Handlers.PlaceholderInput? right) -> bool
+virtual Innago.Shared.ReplaceMe.Handlers.PlaceholderInput.<Clone>$() -> Innago.Shared.ReplaceMe.Handlers.PlaceholderInput!
+virtual Innago.Shared.ReplaceMe.Handlers.PlaceholderInput.EqualityContract.get -> System.Type!
+virtual Innago.Shared.ReplaceMe.Handlers.PlaceholderInput.Equals(Innago.Shared.ReplaceMe.Handlers.PlaceholderInput? other) -> bool
+virtual Innago.Shared.ReplaceMe.Handlers.PlaceholderInput.PrintMembers(System.Text.StringBuilder! builder) -> bool

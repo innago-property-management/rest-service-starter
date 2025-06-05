@@ -1,0 +1,14 @@
+﻿[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPart("Microsoft.AspNetCore.OpenApi")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPart("Prometheus.AspNetCore")]
+namespace Innago.Shared.ReplaceMe.Handlers
+{
+    public static class Placeholder
+    {
+        public static System.Threading.Tasks.Task Stub([Microsoft.AspNetCore.Mvc.FromBody] Innago.Shared.ReplaceMe.Handlers.PlaceholderInput input, System.Threading.CancellationToken cancellationToken) { }
+    }
+    public class PlaceholderInput : System.IEquatable<Innago.Shared.ReplaceMe.Handlers.PlaceholderInput>
+    {
+        public PlaceholderInput(string Value) { }
+        public string Value { get; init; }
+    }
+}
